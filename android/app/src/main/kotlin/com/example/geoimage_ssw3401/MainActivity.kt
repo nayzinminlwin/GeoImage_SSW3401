@@ -1,4 +1,4 @@
-package com.example.geoimage_ssw3401
+package upm.ssw3401.geoimage
 
 import io.flutter.embedding.android.FlutterActivity
 
