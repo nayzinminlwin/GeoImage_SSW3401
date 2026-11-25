@@ -1,0 +1,139 @@
+# ==============================================================================
+# Flutter / Dart
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec-overrides.yaml
+/build/
+**/doc/api/
+.widget_preview/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ==============================================================================
+# Android
+# ==============================================================================
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/.kotlin/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/.cxx/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Android Keystores & Keys (Security)
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ==============================================================================
+# iOS & macOS
+# ==============================================================================
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/default.mode1v3
+**/ios/**/default.mode2v3
+**/ios/**/default.pbxuser
+**/ios/**/default.perspectivev3
+**/ios/**/Pods/
+**/ios/.symlinks/
+**/ios/profile
+**/ios/release
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/App.framework
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# ==============================================================================
+# Windows & Linux (Desktop)
+# ==============================================================================
+**/windows/flutter/ephemeral/
+**/windows/CMakeLists.txt.user
+**/linux/flutter/ephemeral/
+**/linux/CMakeLists.txt.user
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# Miscellaneous editors
+*.swp
+*.swo
+*~
+.atom/
+
+# ==============================================================================
+# Testing & Code Coverage
+# ==============================================================================
+/coverage/
+*.lcov
+
+# ==============================================================================
+# Environment & Secrets
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# General / Miscellaneous
+*.class
+*.log
+*.pyc
+.build/
+.buildlog/
+.svn/
+.swiftpm/
+migrate_working_dir/
